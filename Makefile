@@ -1,10 +1,10 @@
-SRC=stronghold_coords.cpp
-BIN=out-stronghold_coords
-CPP=g++
+SRC=main.cpp
+BIN=stronghold_coords
+CPP=clang++
 FLAG=-lm -Os
 
 $(BIN): $(SRC)
 	$(CPP) $(SRC) $(FLAG) -o $@
 
-clear:
+clean:
 	rm -f $(BIN)

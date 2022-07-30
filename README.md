@@ -2,7 +2,8 @@
 
 ## How to use
 
-Compile with *compiler* and **make**, g++ is the default compiler
+Compile with *compiler* and **make**,
+"clang++" is the default compiler
 
 ```
 $ make CC=<compiler>
@@ -11,7 +12,7 @@ $ make CC=<compiler>
 Run the utility
 
 ```
-$ ./out-stronghold_coords
+$ ./stronghold_coords
 ```
 
 ## To do
